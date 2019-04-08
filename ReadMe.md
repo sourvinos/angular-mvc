@@ -1,9 +1,17 @@
-This is the basic template of Angular with SSL for Linux.
-
-The template was created with ASP.NET Core 2.1: dotnet new angular project-name
+This is based on the Angular template created with 'dotnet new angular'
+It uses ASP.NET Core 2 and Angular 7
+It also uses an SSL certificate for secure connection
 
 Instructions how to create the certificate are here 
 https://www.humankode.com/asp-net-core/develop-locally-with-https-self-signed-certificates-and-asp-net-core
-under the paragraph "Create a Self-Signed Certificate and trust it on Ubuntu Linux"
 
+Warning: 
+OmniSharp in VS Code was giving errors as described here: 
+https://github.com/OmniSharp/omnisharp-vscode/issues/2965
+Replace: sudo apt-get install dotnet-sdk-2.2 
+With: sudo apt-get install dotnet-sdk-2.2=2.2.105-1
+
+And do not update if prompted by the OS!
+
+Finally,
 I just love to see the green padlock and the message "Connection is secure"
