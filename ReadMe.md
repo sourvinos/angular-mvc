@@ -20,4 +20,4 @@ With: sudo apt-get install dotnet-sdk-2.2=2.2.105-1
 
 Do not update if prompted by the OS, until this is resolved!
 
-Finally, I just love to see the green padlock and the message "Connection is secure". After all, this is why I search high and low to find how to implement an SSL Certificate!
+Finally, I just love to see the green padlock and the message "Connection is secure". After all, this is why I searched high and low to find how to implement an SSL Certificate!
