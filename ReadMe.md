@@ -6,12 +6,10 @@ Instructions how to create the certificate are here
 https://www.humankode.com/asp-net-core/develop-locally-with-https-self-signed-certificates-and-asp-net-core
 
 Warning: 
-OmniSharp in VS Code was giving errors as described here: 
+OmniSharp in VS Code was giving errors as described here:
 https://github.com/OmniSharp/omnisharp-vscode/issues/2965
 Replace: sudo apt-get install dotnet-sdk-2.2 
 With: sudo apt-get install dotnet-sdk-2.2=2.2.105-1
+Do not update if prompted by the OS, until this is resolved!
 
-And do not update if prompted by the OS!
-
-Finally,
-I just love to see the green padlock and the message "Connection is secure"
+Finally,I just love to see the green padlock and the message "Connection is secure"
